@@ -43,9 +43,9 @@ export default function Home({ products }) {
 
 
       </Head>
-      <div class="wrapper"><br/><br/>
-        <div class="home"><h1 class="page-heading">An open letter to remove Richard M. Stallman from all leadership positions</h1><p><em>Update (2021-04-12):</em> The Board of the Free Software Foundation has <a href="https://www.fsf.org/news/statement-of-fsf-board-on-election-of-richard-stallman">released a statement affirming their re-election of RMS</a>. We stand by our call to action in the letter below.</p>
-        <div class="share-links">
+      <div className="wrapper"><br/><br/>
+        <div className="home"><h1 className="page-heading">An open letter to remove Richard M. Stallman from all leadership positions</h1><p><em>Update (2021-04-12):</em> The Board of the Free Software Foundation has <a href="https://www.fsf.org/news/statement-of-fsf-board-on-election-of-richard-stallman">released a statement affirming their re-election of RMS</a>. We stand by our call to action in the letter below.</p>
+        <div className="share-links">
   <p>Share</p>
   <a href="https://twitter.com/intent/tweet?text=I%20support%20this%20call%20for%20the%20entire%20Board%20of%20the%20FSF%20to%20step%20down%20and%20for%20Richard%20M.%20Stallman%20to%20be%20removed%20from%20all%20leadership%20positions.&amp;url=https://rms-open-letter.github.io/" target="_blank" rel="noopener noreferrer">
     <svg viewbox="0 0 512 512" preserveAspectRatio="xMidYMid meet" width="32" height="32">
@@ -91,7 +91,7 @@ export default function Home({ products }) {
 
 <h3 id="individuals">Sign this petition.</h3>
 
-<form action="https://getform.io/f/2fc831df-0eb4-4705-b41e-57ee5c39a563" method="POST" accept-charset="UTF-8">
+<form action="https://getform.io/f/2fc831df-0eb4-4705-b41e-57ee5c39a563" method="POST" acceptCharset="UTF-8">
     <input type="text" name="name" placeholder="Your Name*" required="required"/><br/>
     <input type="email" name="email" placeholder="Your Email*" required="required"/><br/>
     <button type="submit">Submit</button>
