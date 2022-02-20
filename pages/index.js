@@ -91,16 +91,18 @@ export default function Home({ products }) {
 </form><br/>
 </div>
       <div>
-        <p><small>this may take 30 seconds to update.</small></p>
+        <p><small>this may take 30 seconds to update, try reloading.</small></p>
+        <div className="share-links">Signiatures:</div>
         <ol>
         {products.map((product) => (
           <Product
             key={product.name}
             name={product.name}
+            type={product.email}
           />    
         ))}
         </ol>
-      </div>
+      </div><br/><br/>
     </div>
     </div>
   );
