@@ -52,13 +52,13 @@ export default function Home({ products }) {
   </Link></p>
   <Link href="https://twitter.com/intent/tweet?text=I%20signed%20this%20open%20letter,%20in%20search%20of%20a%20path%20towards%20equity.%20Social%20reform,%20through%20basic%20income%20and%20mainstream%20affordability,%20can%20solve%20household%20food%20insecurity.%20https://towards-equity.vercel.app/letter" target="_blank" rel="noopener noreferrer">
     <img width="30px" style={{paddingRight: '10px'}} src="https://www.svgrepo.com/show/176905/twitter-social-media.svg"/>
-  </Link>
+  </Link><br/>
   <p><Link href="/email">
   Email your local MP & MPP
   </Link></p>
   <Link href="/email">
   <img width="30px" style={{paddingRight: '10px'}} src="https://www.svgrepo.com/show/137590/email.svg"/>
-  </Link>
+  </Link><br/>
   <p><Link href="/about">
   About us
   </Link></p>

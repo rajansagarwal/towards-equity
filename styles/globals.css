@@ -849,6 +849,15 @@ table td {
   padding-bottom: 1rem
 }
 
+@media (max-width: 700px) {
+  .share-links {
+    display: block;
+  }
+  .share-links img {
+    display: none;
+  }
+}
+
 input {
   width: 400px;
 }
