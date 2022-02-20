@@ -846,12 +846,13 @@ table td {
 .share-links {
   display: flex;
   align-items: center;
-  padding-bottom: 1rem
+  padding-bottom: 1rem;
 }
 
 @media (max-width: 700px) {
   .share-links {
     display: block;
+    padding-bottom: -15px;
   }
   .share-links img {
     display: none;
@@ -889,3 +890,4 @@ button {
   justify-content: space-between;
   align-items: center
 }
+

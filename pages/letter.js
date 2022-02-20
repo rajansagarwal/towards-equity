@@ -31,7 +31,7 @@ export async function getStaticProps() {
 function Product({ name, email }) {
   return (
     <div className="item">
-  <li>{name}</li>
+    <li>{name}</li>
     </div>
   );
 }

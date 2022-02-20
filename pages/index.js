@@ -32,7 +32,7 @@ export async function getStaticProps() {
 function Product({ name, email }) {
   return (
     <div className="item">
-  <li>{name}</li>
+    <li>{name}</li>
     </div>
   );
 }
@@ -65,13 +65,13 @@ export default function Home({ products }) {
   </Link></p>
   <Link href="/email">
   <img width="30px" src="https://www.svgrepo.com/show/16158/care-about-planet.svg"/>
-  </Link>
+  </Link><br/>
 </div>
 <p><em>2022-02-18</em></p>
 
 <p>Access to food isn&#39;t a privilege, it&#39;s a fundamental human right. The most recent national measure was taken in 2017-18, when 1 in 8 households were food insecure, amounting to over 4.4 million Canadians and 1.1 million children living in homes that have difficulty putting food on the table due to low wages and high costs. Throughout the pandemic, we saw a 10-15% increase in visits to Food Banks, with 45% of individuals under the age of 14. In 2021, The Emergency Food Insecurity announced an additional $100-million top-up towards food banks and food organizations. The problem, however, is that <strong>food is not the solution to food insecurity.</strong></p>
 
-<p>Reducing household food insecurity requires the commitment of public revenue and resources. The foundation of food insecurity are affordability and individual wages. If one cannot afford to put food on the table, then they are also struggling with other fundamental needs. Savings can only be as high as the monthly cost of food, which is often not enough for mainstream sustainability. Over the past two years, we have entered a state of budget shock: the cost of food, shelter and heat have increased, while social support systems have remained the same.</p>
+<p>Reducing household food insecurity requires the commitment of public revenue and resources. The foundation of food insecurity is affordability and individual wages. If one cannot afford to put food on the table, then they are also struggling with other fundamental needs. Savings can only be as high as the monthly cost of food, which is often not enough for mainstream sustainability. Over the past two years, we have entered a state of budget shock: the cost of food, shelter and heat have increased, while social support systems have remained the same.</p>
 
 <p><strong>We seek social reform.</strong> Food banks have been in place for 40 years, and there is no substantial evidence that food charity can move households out of food insecurity, such that only 1/4 food insecure individuals use these facilities. Research has shown that food insecurity can be reduced through public policies that improve the financial circumstances of low-income households. Pension programs for individuals above 65 years of age introduced a 50% drop in food insecurity, in comparison to those in their 50s. Initiatives such as Saskatchewan’s Social Assistance Reforms reflect the protection that income stability provide to families on a large scale. As a result, we must implement a Basic Income Guarantee, which directly provides families with sustainable solutions.</p>
 
