@@ -92,7 +92,7 @@ export default function Home({ products }) {
 </form><br/>
 </div>
       <div>
-        <p><small>this may take 30 seconds to update, try reloading. if your name does not show up immediately, do not fill out the form again. to remove your signiature, contact the creator of this site.</small></p>
+        <p><small>this may take 30 seconds to update, try reloading. <br/>if your name does not show up immediately, do not fill out the form again. <br/>to remove your signiature, contact the creator of this site.</small></p>
         <div className="share-links">Signiatures:</div>
         <ol>
         {products.map((product) => (
