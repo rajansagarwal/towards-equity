@@ -41,8 +41,8 @@ export default function Home({ products }) {
     <div>
       <Head>
         <title>Towards Equity</title>
-
-
+        <meta name="description" content="An open letter towards domestic sustainability and equitable food security." />
+        <link rel="icon" href="https://emojis.wiki/emoji-pics/apple/green-apple-apple.png" />
       </Head>
       <div className="wrapper"><br/><br/>
         <div className="home"><h1 className="page-heading">An open letter towards domestic sustainability and equitable food security.</h1>

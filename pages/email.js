@@ -6,8 +6,8 @@ export default function Home() {
     <div>
       <Head>
         <title>Towards Equity</title>
-
-
+        <meta name="description" content="An open email template towards domestic sustainability and equitable food security." />
+        <link rel="icon" href="https://emojis.wiki/emoji-pics/apple/green-apple-apple.png" />
       </Head>
       <div className="wrapper"><br/><br/>
       <p><em><Link href="/" style={{color: 'black'}}>Towards Equity</Link></em> </p><br/>
