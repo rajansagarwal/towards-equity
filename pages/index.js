@@ -81,7 +81,7 @@ export default function Home({ products }) {
 
 <p>We do not want continual federal funding, we seek exploration and <strong>a path towards equity.</strong></p>
 
-<p>Contribute to this <Link href="https://github.com/rajanwastaken/towardsequity">open sourced letter.</Link></p>
+<p>Contribute to this <Link href="https://github.com/rajanwastaken/towards-equity">open sourced letter.</Link></p>
 <br/>
 <h3 id="individuals">Co-sign this letter.</h3>
 
