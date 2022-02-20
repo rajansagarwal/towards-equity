@@ -347,16 +347,16 @@ h6 {
   font-weight: 400
 }
 
-a {
+Link {
   color: #2a7ae2;
   text-decoration: none
 }
 
-a:visited {
+Link:visited {
   color: #1756a9
 }
 
-a:hover {
+Link:hover {
   color: #111;
   text-decoration: underline
 }
@@ -608,7 +608,7 @@ table td {
   }
 
   .site-nav .page-link:not(:last-child) {
-      margin-right: 20px
+      margin-right: 35px
   }
 }
 
@@ -803,15 +803,15 @@ table td {
   margin-right: 0
 }
 
-.social-media-list li a,
-.pagination li a {
+.social-media-list li Link,
+.pagination li Link {
   display: block;
   padding: 7.5px;
   border: 1px solid #e8e8e8
 }
 
-.social-media-list li a:hover,
-.pagination li a:hover {
+.social-media-list li Link:hover,
+.pagination li Link:hover {
   border-color: #dbdbdb
 }
 
@@ -819,7 +819,7 @@ table td {
   margin-bottom: 30px
 }
 
-.pagination li a,
+.pagination li Link,
 .pagination li div {
   min-width: 41px;
   text-align: center;
@@ -849,6 +849,14 @@ table td {
   padding-bottom: 1rem
 }
 
+input {
+  width: 400px;
+}
+
+button {
+  padding: 3px;
+}
+
 .share-links *:not(:last-child) {
   margin-right: 10px
 }
@@ -857,10 +865,10 @@ table td {
   margin-bottom: 0
 }
 
-.share-links a {
+.share-links Link {
   color: #464646;
   width: 32px;
-  height: 32px
+  height: 28px
 }
 
 .site-title {

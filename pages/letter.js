@@ -46,29 +46,9 @@ export default function Home({ products }) {
       </Head>
       <div className="wrapper"><br/><br/>
         <div className="home"><h1 className="page-heading">An open letter towards domestic sustainability and equitable food security.</h1>
-        <div className="share-links">
-        <p> <Link href="https://twitter.com/intent/tweet?text=I%20signed%20this%20open%20letter,%20in%20search%20of%20a%20path%20towards%20equity.%20Social%20reform,%20through%20basic%20income%20and%20mainstream%20affordability,%20can%20solve%20household%20food%20insecurity.%20https://towardsequity.vercel.app/letter" target="_blank" rel="noopener noreferrer">        
-  Share on Twitter
-  </Link></p>
-  <Link href="https://twitter.com/intent/tweet?text=I%20signed%20this%20open%20letter,%20in%20search%20of%20a%20path%20towards%20equity.%20Social%20reform,%20through%20basic%20income%20and%20mainstream%20affordability,%20can%20solve%20household%20food%20insecurity.%20https://towards-equity.vercel.app/letter" target="_blank" rel="noopener noreferrer">
-    <img width="30px" style={{paddingRight: '10px'}} src="https://www.svgrepo.com/show/176905/twitter-social-media.svg"/>
-  </Link>
-  <p><Link href="/email">
-  Email your local MP & MPP
-  </Link></p>
-  <Link href="/email">
-  <img width="30px" style={{paddingRight: '10px'}} src="https://www.svgrepo.com/show/137590/email.svg"/>
-  </Link>
-  <p><Link href="/about">
-  About us
-  </Link></p>
-  <Link href="/email">
-  <img width="30px" src="https://www.svgrepo.com/show/16158/care-about-planet.svg"/>
-  </Link>
-</div>
 <p><em>2022-02-18</em></p>
 
-<p>Access to food isn&#39;t a privilege, it&#39;s a fundamental human right. The most recent national measure was taken in 2017-18, when 1 in 8 households were food insecure, amounting to over 4.4 million Canadians and 1.1 million children living in homes that have difficulty putting food on the table due to low wages and high costs. Throughout the pandemic, we saw a 10-15% increase in visits to Food Banks, with 45% of individuals under the age of 14. In 2021, The Emergency Food Insecurity announced an additional $100-million top-up towards food banks and food organizations. The problem, however, is that <strong>food is not the solution to food insecurity.</strong></p>
+<p>Access to food isn’t a privilege, it’s a fundamental human right. The most recent national measure was taken in 2017-18, when 1 in 8 households were food insecure, amounting to over 4.4 million Canadians and 1.1 million children living in homes that have difficulty putting food on the table due to low wages and high costs. Throughout the pandemic, we saw a 10-15% increase in visits to Food Banks, with 45% of individuals under the age of 14. In 2021, The Emergency Food Insecurity announced an additional $100-million top-up towards food banks and food organizations. The problem, however, is that <strong>food is not the solution to food insecurity.</strong></p>
 
 <p>Reducing household food insecurity requires the commitment of public revenue and resources. The foundation of food insecurity are affordability and individual wages. If one cannot afford to put food on the table, then they are also struggling with other fundamental needs. Savings can only be as high as the monthly cost of food, which is often not enough for mainstream sustainability. Over the past two years, we have entered a state of budget shock: the cost of food, shelter and heat have increased, while social support systems have remained the same.</p>
 
@@ -80,15 +60,16 @@ export default function Home({ products }) {
 
 <p>We do not want continual federal funding, we seek exploration and <strong>a path towards equity.</strong></p>
 
-<p>Contribute to this <Link href="https://github.com/rajanwastaken/towardsequity">open sourced letter.</Link></p>
-<br/>
-<h3 id="individuals">Co-sign this letter.</h3>
+
+<h3 id="individuals">Sign this petition.</h3>
 
 <form action="https://getform.io/f/2fc831df-0eb4-4705-b41e-57ee5c39a563" method="POST" acceptCharset="UTF-8">
     <input type="text" name="name" placeholder="Your Name. This is publicly displayed." required="required"/><br/>
     <input type="email" name="email" placeholder="Your Email. This is private, used to prove your identity." required="required"/><br/>
     <br/><button type="submit">Sign</button>
-</form><br/>
+</form>
+
+<br/>
 </div>
       <div>
         <p><small>this may take 30 seconds to update.</small></p>
@@ -97,6 +78,7 @@ export default function Home({ products }) {
           <Product
             key={product.name}
             name={product.name}
+            type={product.email}
           />    
         ))}
         </ol>
