@@ -860,11 +860,31 @@ table td {
 }
 
 input {
+  padding: 7.5px;
+  margin-bottom: 10px;
   width: 350px;
+  border:0;
+  box-shadow:0 0 4px 4px rgba(0,0,0,0.03);
+  border-radius:10px;
 }
 
-button {
-  padding: 3px;
+form button {
+  appearance:none;
+  -webkit-appearance:none;
+  padding:10px;
+  margin-top: 15px;
+  border:none;
+  background-color:#3F51B5;
+  color:#fff;
+  font-weight:600;
+  width:150px;
+  cursor: pointer;
+  border-radius:10px;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #33418b;
 }
 
 .share-links *:not(:last-child) {

@@ -88,7 +88,7 @@ export default function Home({ products }) {
 <form action="https://getform.io/f/2fc831df-0eb4-4705-b41e-57ee5c39a563" method="POST" acceptCharset="UTF-8">
     <input type="text" name="name" placeholder="Name. This is publicly displayed." required="required"/><br/>
     <input type="email" name="email" placeholder="Email. This is private, used to prove your identity." required="required"/><br/>
-    <br/><button type="submit">Sign</button>
+    <button type="submit">Sign</button>
 </form><br/>
 </div>
       <div>
