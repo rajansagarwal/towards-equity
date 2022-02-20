@@ -14,10 +14,10 @@ export async function getStaticProps() {
     })
     .all();
 
-  const products = records.map((product) => {
+  const products = records.map((sig) => {
     return {
-      name: product.get('Name'),
-      type: product.get('Email'),
+      name: sig.get('Name'),
+      type: sig.get('Email'),
     };
   });
 
@@ -42,8 +42,8 @@ export default function Home({ products }) {
     <div>
       <Head>
         <title>Towards Equity</title>
-
-
+        <meta name="description" content="An open letter towards domestic sustainability and equitable food security." />
+        <link rel="icon" href="https://emojis.wiki/emoji-pics/apple/green-apple-apple.png" />
       </Head>
       <div className="wrapper"><br/><br/>
         <div className="home"><h1 className="page-heading">An open letter towards domestic sustainability and equitable food security.</h1>
@@ -95,11 +95,11 @@ export default function Home({ products }) {
         <p><small>this may take 30 seconds to update, try reloading. <br/>if your name does not show up immediately, do not fill out the form again. <br/>to remove your signiature, contact the creator of this site.</small></p>
         <div className="share-links">Signiatures:</div>
         <ol>
-        {products.map((product) => (
+        {products.map((sig) => (
           <Product
-            key={product.name}
-            name={product.name}
-            type={product.email}
+            key={sig.name}
+            name={sig.name}
+            type={sig.email}
           />    
         ))}
         </ol>
