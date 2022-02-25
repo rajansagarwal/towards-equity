@@ -99,7 +99,7 @@ export default function Home({ products }) {
           <Product
             key={sig.name}
             name={sig.name}
-            type={sig.email}
+            type={sig.name}
           />    
         ))}
         </ol>
