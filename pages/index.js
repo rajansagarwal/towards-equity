@@ -25,7 +25,7 @@ export async function getStaticProps() {
     props: {
       products,
     },
-    revalidate: 30,
+    revalidate: 60,
   };
 }
 
@@ -60,8 +60,8 @@ export default function Home({ products }) {
   <Link href="/email">
   <img width="30px" style={{paddingRight: '10px'}} src="https://www.svgrepo.com/show/137590/email.svg"/>
   </Link><br/>
-  <p><Link href="/about">
-  About us
+  <p><Link href="https://www.instagram.com/tv/CaYbcxIA13G/?utm_source=ig_web_copy_link">
+  Watch our PSA
   </Link></p>
   <Link href="/email">
   <img width="30px" src="https://www.svgrepo.com/show/16158/care-about-planet.svg"/>
