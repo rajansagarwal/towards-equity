@@ -5,19 +5,21 @@ import Link from 'next/link'
 export async function getStaticProps() {
   const airtable = new Airtable({
     apiKey: process.env.API_KEY,
+    view: 'Grid view',
   });
 
   const records = await airtable
     .base(process.env.BASE_ID)('Towards')
     .select({
-      fields: ['Name', 'Email'],
+      fields: ['Name'],
+      view: 'Grid view',
     })
     .all();
 
   const products = records.map((sig) => {
     return {
       name: sig.get('Name'),
-      type: sig.get('Email'),
+      type: sig.get('Name'),
     };
   });
 
@@ -25,11 +27,11 @@ export async function getStaticProps() {
     props: {
       products,
     },
-    revalidate: 60,
+    revalidate: 45,
   };
 }
 
-function Product({ name, email }) {
+function Product({ name }) {
   return (
     <div className="item">
     <li>{name}</li>
@@ -108,5 +110,3 @@ export default function Home({ products }) {
     </div>
   );
 }
-
-
