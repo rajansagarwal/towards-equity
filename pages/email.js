@@ -20,7 +20,7 @@ export default function Home() {
 
 <p></p>
 
-<p>Dear [Name of MP],</p>
+<p>Dear [Insert Name of MP],</p>
 
 <p><em>Insert short introduction about yourself & your geographic connection to the topic.</em></p>
 
