@@ -85,7 +85,7 @@ export default function Home({ products }) {
 
 <p>Contribute to this <Link href="https://github.com/rajanwastaken/towards-equity">open sourced letter.</Link></p>
 <br/>
-<h3 id="individuals">No Longer Accepting Responses [Security Checkup]</h3>
+<h3 id="individuals">No Longer Accepting Responses</h3>
 {/*
 <form action="https://getform.io/f/2fc831df-0eb4-4705-b41e-57ee5c39a563" method="POST" acceptCharset="UTF-8">
     <input type="text" name="name" placeholder="Name. This is publicly displayed." required="required"/><br/>
