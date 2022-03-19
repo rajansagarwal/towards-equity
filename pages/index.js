@@ -96,7 +96,7 @@ export default function Home({ products }) {
 <br/>
 </div>
       <div>
-        <p><small>this may take 30 seconds to update, try reloading. <br/>if your name does not show up immediately, do not fill out the form again. <br/>to remove your signature, contact the <Link href="https://instagram.com/towards.equity">creator of this site</Link>.</small></p>
+     
         <div className="share-links">Signatures:</div>
         <ol>
         {products.map((sig) => (
